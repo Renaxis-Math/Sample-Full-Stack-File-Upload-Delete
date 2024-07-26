@@ -20,10 +20,6 @@
   cd <repository-directory>
   ```
 
-2. **Copy Credentials from aws_credentials.txt**
-
-  Or create your own.
-
 2. **Build and Run**
 - With Docker:
   ```bash
