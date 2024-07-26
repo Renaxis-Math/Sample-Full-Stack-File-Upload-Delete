@@ -1,0 +1,20 @@
+# Node modules
+*/node_modules
+
+# Uploads
+*/uploads
+
+# Build output
+/build
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
