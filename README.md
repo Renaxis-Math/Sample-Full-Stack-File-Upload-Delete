@@ -15,38 +15,43 @@
 
 ## Instruction
 1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+  ```bash
+  git clone <repository-url>
+  cd <repository-directory>
+  ```
+
+2. **Copy Credentials from aws_credentials.txt**
+
+  Or create your own.
 
 2. **Build and Run**
 - With Docker:
-    ```bash
-    docker compose up
-    ```
-    
-    or
+  ```bash
+  docker compose up
+  ```
+  
+  or
 
-    ```bash
-    docker-compose up
-    ```
+  ```bash
+  docker-compose up
+  ```
 
 - Without Docker
 
-    a. Install Node.js (check by npm --version). 
-    b. Then, open 2 separated CMD terminals for backend and frontend
-    c. In the backend terminal:
-    ```bash
-    cd backend
-    npm install
-    node server.js
-    ```
-    d.In the frontend terminal:
-    ```bash
-    cd frontend
-    npm install
-    npm start
-    ```
+  a. Install Node.js (check by npm --version). 
+  b. Then, open 2 separated CMD terminals for backend and frontend
+  c. In the backend terminal:
+  ```bash
+  cd backend
+  npm install
+  node server.js
+  ```
+  d.In the frontend terminal:
+  ```bash
+  cd frontend
+  npm install
+  npm start
+  ```
 
 3. **See the result** 
 Visit `http://localhost:3000` to access the web app
@@ -56,7 +61,7 @@ Visit `http://localhost:3000` to access the web app
     Ctrl + C
 
     or 
-    
+
     ```bash
     docker ps
     ```
