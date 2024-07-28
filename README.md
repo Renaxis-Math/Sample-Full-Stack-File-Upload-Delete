@@ -77,6 +77,8 @@ Visit `http://localhost:3000` to access the web app
 ## New Update Workflow
 
 1. **Double Check Authentication in AWS S3 Database**
+  - On AWS Management Console: Check "Bucket policy" -> "Action" and "Resource"
+  - Check CORS -> "AllowedMethods"
   - Ensure AWS S3 credentials and permissions are correctly configured.
 
 2. **Update TCP/IP Validation in Backend `.env` File for CORS**
